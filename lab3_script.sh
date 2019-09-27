@@ -19,7 +19,7 @@ grep $regExpression $fileName
 grep -c -P [0-9]{3}-[0-9]{3}-[0-9]{4}$ regex_practice.txt
 
 #prints the count of lines that contain an @ followed by at least one alphabetical character wollowed by a . followed by at least one alphabetical char
-grep -c -P .@.+/.+ regex_practice.txt
+grep -c -P .@+.+ regex_practice.txt
 
 
 #prints matching parts of lines that contain 303 followed by a dash and any 9 digit phone number
